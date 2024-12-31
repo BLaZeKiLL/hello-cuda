@@ -1,0 +1,6 @@
+{
+    "cmake.copyCompileCommands": "${workspaceFolder}/out/build/compile_commands.json",
+    "files.associations": {
+        "ios": "cpp"
+    }
+}
