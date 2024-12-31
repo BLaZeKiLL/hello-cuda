@@ -15,7 +15,7 @@ You can update values in here depending upon your systems and requirements, do t
 - `CMAKE_TOOLCHAIN_FILE` - vcpkg toolchain file path
 
 ## Vcpkg
-This project assumes vcpkg is installed on your system and the toolchain path is configured in the cmake preset. dependencies can be added by listing them in the vcpkg.json
+This project assumes [vcpkg](https://vcpkg.io/en/) is installed on your system and the toolchain path is configured in the cmake preset. dependencies can be added by listing them in the vcpkg.json
 
 ## VSCode
-Official C++ and CMake vscode extensions are required for this project to work, the base cmake preset is configured to export the compile commands.json file which is configured to be used by extensions in the `.vscode` folder to provide intellisense 
+Official [C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) and [CMake](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) vscode extensions are required for this project to work, the base cmake preset is configured to export the compile commands.json file which is configured to be used by extensions in the `.vscode` folder to provide intellisense 
